@@ -1,0 +1,5 @@
+### Запрос состояния кластера mongoDB
+http://localhost:8080
+
+### Запрос списка пользователей
+http://localhost:8080/helloDoc/users
