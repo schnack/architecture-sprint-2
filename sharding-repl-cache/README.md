@@ -1,11 +1,9 @@
-# mongo-sharding-repl
+# sharding-repl-cache
 
 ## Схема приложения
-
 Схема текущей реализации на странице step-3 [task1.drawio](../task1.drawio)
 
 ## Как запустить
-
 Запуск приложения и баз данных
 
 ```shell
@@ -13,7 +11,6 @@ docker compose up -d
 ```
 
 ###  MongoDB
-
 Настраиваем шардирование и реплицирование: 
 
 ```shell
@@ -26,18 +23,5 @@ docker compose up -d
 ./scripts/mongo-add.sh
 ```
 
-Отобразить количество документов в 1ом шарде
-
-```shell
-./scripts/mongo-count-shard1.sh
-```
-
-Отобразить количество документов в 2ом шарде
-
-```shell
-./scripts/mongo-count-shard2.sh
-```
-
 ### Приложение
-
 Откройте в браузере http://localhost:8080

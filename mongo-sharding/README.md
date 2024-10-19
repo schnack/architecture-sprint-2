@@ -1,11 +1,9 @@
 # mongo-sharding
 
 ## Схема приложения
-
 Схема текущей реализации на странице step-1 [task1.drawio](../task1.drawio)
 
 ## Как запустить
-
 Запуск приложения и баз данных
 
 ```shell
@@ -14,7 +12,6 @@ docker compose up -d
 
 
 ###  MongoDB
-
 Настраиваем шардирование: 
 
 ```shell
@@ -26,7 +23,6 @@ docker compose up -d
 ```shell
 ./scripts/mongo-add.sh
 ```
-
 
 Отобразить количество документов в 1ом шарде
 
@@ -41,5 +37,4 @@ docker compose up -d
 ```
 
 ### Приложение
-
 Откройте в браузере http://localhost:8080
