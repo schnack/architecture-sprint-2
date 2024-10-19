@@ -16,7 +16,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram name="1step" id="fPSEC0d8jJ15lpTguwf8">
+  <diagram name="step-1" id="fPSEC0d8jJ15lpTguwf8">
     <mxGraphModel dx="1074" dy="797" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="W4CFOdk0m0s8oFPTxqjt-0" />
@@ -48,7 +48,7 @@
         <mxCell id="O7H6N2D93ISqx4FjweJ4-2" value="Роутер Mongo" style="rounded=1;whiteSpace=wrap;html=1;" parent="W4CFOdk0m0s8oFPTxqjt-1" vertex="1">
           <mxGeometry x="490" y="370" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="e0mTrSv-c67QR55mjwtU-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="W4CFOdk0m0s8oFPTxqjt-1" source="O7H6N2D93ISqx4FjweJ4-4" target="O7H6N2D93ISqx4FjweJ4-0">
+        <mxCell id="e0mTrSv-c67QR55mjwtU-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="W4CFOdk0m0s8oFPTxqjt-1" source="O7H6N2D93ISqx4FjweJ4-4" target="O7H6N2D93ISqx4FjweJ4-0" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="860" y="330" />
@@ -62,17 +62,17 @@
         <mxCell id="IHjNEfXzKIcj-hWxKyl1-0" value="Для распределение данных будет использоваться алгоритм хэширования" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" parent="W4CFOdk0m0s8oFPTxqjt-1" vertex="1">
           <mxGeometry x="690" y="170" width="290" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="e0mTrSv-c67QR55mjwtU-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="W4CFOdk0m0s8oFPTxqjt-1" source="O7H6N2D93ISqx4FjweJ4-2" target="O7H6N2D93ISqx4FjweJ4-4">
+        <mxCell id="e0mTrSv-c67QR55mjwtU-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="W4CFOdk0m0s8oFPTxqjt-1" source="O7H6N2D93ISqx4FjweJ4-2" target="O7H6N2D93ISqx4FjweJ4-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e0mTrSv-c67QR55mjwtU-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=52.5;entryPerimeter=0;" edge="1" parent="W4CFOdk0m0s8oFPTxqjt-1" source="O7H6N2D93ISqx4FjweJ4-2" target="W4CFOdk0m0s8oFPTxqjt-2">
+        <mxCell id="e0mTrSv-c67QR55mjwtU-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=52.5;entryPerimeter=0;" parent="W4CFOdk0m0s8oFPTxqjt-1" source="O7H6N2D93ISqx4FjweJ4-2" target="W4CFOdk0m0s8oFPTxqjt-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram name="2step" id="GEIFa0SIekH7oJU0Ixbx">
-    <mxGraphModel dx="1652" dy="1226" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+  <diagram name="step-2" id="GEIFa0SIekH7oJU0Ixbx">
+    <mxGraphModel dx="1074" dy="797" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="8yYMlQLoFbgU1UOPOVvf-0" />
         <mxCell id="8yYMlQLoFbgU1UOPOVvf-1" parent="8yYMlQLoFbgU1UOPOVvf-0" />
@@ -169,13 +169,13 @@
         <mxCell id="z26ecNK2its3U1eph25Q-0" value="Для распределение данных будет использоваться алгоритм хэширования" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" parent="8yYMlQLoFbgU1UOPOVvf-1" vertex="1">
           <mxGeometry x="720" y="70" width="290" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="2jiRRIylVNWSSc4w7Kwr-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.602;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="8yYMlQLoFbgU1UOPOVvf-1" source="8yYMlQLoFbgU1UOPOVvf-10" target="sm3STFoyZ8cD8vLlgXez-13">
+        <mxCell id="2jiRRIylVNWSSc4w7Kwr-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.602;entryDx=0;entryDy=0;entryPerimeter=0;" parent="8yYMlQLoFbgU1UOPOVvf-1" source="8yYMlQLoFbgU1UOPOVvf-10" target="sm3STFoyZ8cD8vLlgXez-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram name="3step" id="Y2jmpWUK3LC7UmQqkjxu">
+  <diagram name="step-3" id="Y2jmpWUK3LC7UmQqkjxu">
     <mxGraphModel dx="1074" dy="797" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="hqVvDoe-SBG1E-JLbbbx-0" />
